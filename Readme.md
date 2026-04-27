@@ -377,7 +377,7 @@ cat ~/.ssh/id_rsa
   - `Key` => FILE_ENV
   - `Value` => Isi file .env
 
-Ganti isi “DB*HOST” dengan nama container mysql *“database”_ atau bisa dicek dengan exit dari user deployer `(root@name-server:/home/nama_aplikasi/www#)` lalu jalankan `docker container ls` lalu cari _“NAMES”\_ dari mysql. Samakan isi DB_DATABASE, DB_USERNAME, dan DB_PASSWORD dengan yang ada di file `docker-compose.yml`.
+Ganti isi “DB_HOST” dengan nama container mysql _“database”_ atau bisa dicek dengan exit dari user deployer `(root@name-server:/home/nama_aplikasi/www#)` lalu jalankan `docker container ls` lalu cari _“NAMES”_ dari mysql. Samakan isi DB_DATABASE, DB_USERNAME, dan DB_PASSWORD dengan yang ada di file `docker-compose.yml`.
 
 ## 8\. Membuat _Runner_
 
